@@ -1,10 +1,10 @@
 {
   "name": "node-starter",
   "version": "1.0.0",
-  "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,9 +16,12 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.7.11",
+    "mongoose-paginate": "^5.0.3",
     "require-dir": "^1.2.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
-  }
+  },
+  "main": "server.js",
+  "description": ""
 }
